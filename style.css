@@ -6,7 +6,8 @@ body{
     margin: 0;
 }
 p{
-    font-family: Roboto;
+    /* font-family: Roboto; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 30px;
     font-style: italic;
 }
@@ -14,6 +15,16 @@ p{
     color: orange;
     font-family: Bebas Neue;
 }
+.italic-font{
+    font-family: 'Yeon Sung', cursive;
+    background-image: linear-gradient(180deg blue cyan);
+    color: blue;
+
+}
+
+/* end of basic style *************************/
+
+/* Starting navbar style******************** */
 .navbar{
     position: absolute;
     width: 319px;
@@ -38,6 +49,7 @@ p{
     font-weight: bold;
     text-shadow: rgb(11, 37, 116);
 }
+/* ENd navbar style******************** */
 
 .half-width{
     width: 40%;
@@ -72,13 +84,14 @@ section{
     font-size: 20px;
     border-radius: 10px;
     height: 35px;
+    padding-top: 4px;
     
   }
 section img{
     width: 100%;
 }
 
-.latest-work-heading{
+.latest-work-heading, .language-title{
     text-align: center;
 }
 .letest-work{
@@ -87,7 +100,7 @@ section img{
 .letest-work-img{
     width: 250px;
     height: 200px;
-    position: ;
+   
 }
 .image-div{
     padding: 10px;
@@ -112,9 +125,11 @@ section img{
 }
 .work-enquary{
     margin-left: 20%;
+    margin-top: 15%;
     background-image: url("shapes/Group_33094_1.png");
     background-size: 800px 200px;;
     background-repeat: no-repeat;
+    height: 300px;
 }
 .work-enquary h1{
     margin-left: 30px;
@@ -128,18 +143,66 @@ section img{
     padding-top: 7%;
     padding-left: 20%;
 }
+.vl {
+    border-top: 10px solid gray;
+    border-width: 50px;
+    border-color: rgb(102, 76, 76)124, 77, 77);
+    
+  }
+/**************************************************** Start Programming area ***********************************************/
+.Language-interest{
+    padding-top:5%;
+    height: 300px;
+    
+    margin-bottom: 50px;
+}
+.language{
+    width: 90%;
+    margin-left: 7%;
+    height: 250px;
+    
+}
+.single-programming{
+    width: 10%;
+    float: left;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+    height: 90%;
+    box-shadow: 10px 10px 40px #0a0a0a;
+    margin-right: 3%;
+    background-image: linear-gradient(180deg black white);
+}
+#language-box-border{
+    border: 5px solid ;
+    border-image: linear-gradient(rgb(177, 48, 36),rgb(30, 12, 53));
+    border-image-slice: 1;
+
+}
 
 .icon-image{
     height: 100px;
     width: 50px;
     float: left;
     margin-right: 10px;
+    margin-left: 30px;
+    
 }
 .stay-connected{
     border: 1px solid white;
     height: 150px;
     width: 300px;
     margin-left: 40%;
+    margin-top: 10%;
     text-align: center;
 
 }
+
+footer{
+    text-align: center;
+    color: rgb(107, 38, 26);
+}
+
+
+
