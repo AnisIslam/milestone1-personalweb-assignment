@@ -134,6 +134,8 @@ section img{
 .work-enquary h1{
     margin-left: 30px;
     padding-top: 5%;
+    color: white;
+    font-weight:900;
 }
 .work-enquary-div{
     float: left;
